@@ -1,0 +1,9 @@
+PRACTICAL ASSIGNMENT - NAIVE BAYES CLASSIFIER
+=============================================
+
+Write a program that accepts data (Real time data) and uses the Naive Bayes Classifier 
+to establish if a patient has diabetes or not.
+
+NB
+--
+Use the data provided in the class folder (pima.diabetes) to show the efficaccy of your program.
