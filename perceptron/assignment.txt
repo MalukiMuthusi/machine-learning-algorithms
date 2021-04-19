@@ -1,0 +1,16 @@
+Assignment 2 - Perceptron Library
+=================================
+
+QUESTION ONE
+------------
+Create a library from the perceptron algorithm. Use the heart disease data as your input
+
+QUESTION TWO
+------------
+Create a library from the ADALINE algorithm. Use the diabetes disease data as your input. 
+Assume network output = summation output value
+
+provide at:
+https://docs.google.com/document/d/1UAkpDepewJ1GkVE0JxPH1UbaLCnpJmrr30k7jeZFjJw/edit?usp=sharing
+
+Due: 9th March, 2021

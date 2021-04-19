@@ -7,3 +7,5 @@ to establish if a patient has diabetes or not.
 NB
 --
 Use the data provided in the class folder (pima.diabetes) to show the efficaccy of your program.
+
+Due: 21st April 2021

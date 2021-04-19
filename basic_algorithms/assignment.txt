@@ -1,0 +1,11 @@
+For the following:
+- Expected Maximization (EM) algorithms especially Gaussian Mixture
+- Support Vector Machine
+-Learning Vector Quantization (LVQ). 
+
+a) Highlight Basic concepts and the Algorithm
+b) Mention the key applications for the models
+c) Highlight key open source libraries that implement.
+
+Provided at:
+https://docs.google.com/document/d/1i9QSNICt9UhcEmgLUvv9tJPRVxcitbqlHT8Vkecy0Rk/edit?usp=sharing

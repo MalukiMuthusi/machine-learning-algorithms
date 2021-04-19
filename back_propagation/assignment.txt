@@ -1,0 +1,7 @@
+Back Propagation
+================
+
+complete assignment 3.
+
+Provided at:
+https://drive.google.com/file/d/1jauvC2bpg3JsCVFo_smLOemCBjmYlmDt/view?usp=sharing
