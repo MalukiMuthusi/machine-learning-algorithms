@@ -1,0 +1,30 @@
+%Please add the following packages if necessary:
+%\usepackage{booktabs, multirow} % for borders and merged ranges
+%\usepackage{soul}% for underlines
+%\usepackage[table]{xcolor} % for cell colors
+%\usepackage{changepage,threeparttable} % for wide tables
+%If the table is too wide, replace \begin{table}[!htp]...\end{table} with
+%\begin{adjustwidth}{-2.5 cm}{-2.5 cm}\centering\begin{threeparttable}[!htb]...\end{threeparttable}\end{adjustwidth}
+\begin{table}[!htp]\centering
+    \caption{Car data}\label{table:car_data}
+    \scriptsize
+    \begin{tabular}{lrrrrrr}\toprule
+        \textbf{Model} & \textbf{Engine} & \textbf{SC/Turbo} & \textbf{Weight} & \textbf{Fuel Eco} & \textbf{Fast} \\\midrule
+        Prius          & small           & no                & average         & good              & \textbf{no}   \\
+        Civic          & small           & no                & light           & average           & \textbf{no}   \\
+        WRX STI        & small           & yes               & average         & bad               & \textbf{yes}  \\
+        M3             & medium          & no                & heavy           & bad               & \textbf{yes}  \\
+        RS4            & large           & no                & average         & bad               & \textbf{no}   \\
+        GTI            & medium          & no                & light           & bad               & \textbf{no}   \\
+        XJR            & large           & yes               & heavy           & bad               & \textbf{no}   \\
+        S500           & large           & no                & heavy           & bad               & \textbf{no}   \\
+        911            & medium          & yes               & light           & good              & \textbf{no}   \\
+        Convette       & large           & no                & average         & bad               & \textbf{yes}  \\
+        Insight        & small           & no                & light           & good              & \textbf{no}   \\
+        RSX            & small           & no                & average         & average           & \textbf{no}   \\
+        IS350          & medium          & no                & heavy           & bad               & \textbf{no}   \\
+        MR2            & small           & yes               & average         & average           & \textbf{no}   \\
+        E320           & medium          & no                & heavy           & bad               & \textbf{no}   \\
+        \bottomrule
+    \end{tabular}
+\end{table}

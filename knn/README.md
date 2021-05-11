@@ -1,6 +1,6 @@
 # K-Nearest Neighbor
 
-It is used to classify data points. It uses a simple classification method
+It is used to classify data points. It uses a simple classification method,
 data points closer to each other have shared characteristics.
 
 ## The algorithm
@@ -8,7 +8,7 @@ data points closer to each other have shared characteristics.
 ```python
 # 1. select the number of neighbors you want to use, K
 # 2. given a new data point, N, determine it's class.
-# 3. calculate the distance from N for each data point.
+# 3. calculate the distance from N for each data point, can use Euclidean distance
 # 4. sort the data points based on their distance from N.
 # 5. select up to K data points from the sorted data points
 # 6. find the majority data label, P, of the sorted data points.

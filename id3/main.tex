@@ -1,0 +1,52 @@
+\documentclass[a4paper]{article}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{amsmath}
+
+\usepackage{booktabs, multirow} % for borders and merged ranges
+\usepackage{soul}% for underlines
+\usepackage[table]{xcolor} % for cell colors
+\usepackage{changepage,threeparttable} % for wide tables
+
+\begin{document}
+
+\section{ID3 Algorithm}
+ID3 algorithm is used to create a decision tree. A tree is created from a data using the attributes. Information is presented in tree. Using the tree you can easily classify,a new data point.
+
+For example given car data as in table:~\ref{table:car_data}, and you want to predict if a car is fast or not given the attributes, Engine, SC/Turbo, Weight, and Fuel Eco.
+
+The car's model does not matter, because it is unique.
+\input{table.tex}
+
+\subsection{Calculate the Information Gain}
+
+Establish the target classification, is the car fast?
+6/15 yes, 9/15 no
+
+Calculate the classification entropy
+\begin{equation}
+    I_E = -(6/15)\log(6/15) - (9/15)\log(9/15)
+\end{equation}
+The information gain of the values is:
+
+\input{ig-first-node.tex}
+
+The feature Fuel Eco has the highest information gain we make it the root node. Under Fuel Eco we can branch on bad, everage, good
+
+We create a filter of the data considering branching on the bad feature of Fuel Eco.
+\input{fuel-eco-bad-data.tex}
+
+Then calculate the information gain, and create a node with the highest information gain.
+\input{ig-fuel-eco-bad.tex}
+
+From table:~\ref{ig:fuel-eco_bad} Wight has the highest information gain. We create a node for Weight.
+We then create a view of the data considering only the remaining features,
+\input{table-node-3-weight-average.tex}
+
+Then calculate the information gain \input{ig-weight-average.tex}
+
+The values have a tie,
+
+\end{document}
