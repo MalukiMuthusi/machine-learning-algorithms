@@ -1,0 +1,28 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% node 2 bad
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Please add the following packages if necessary:
+%\usepackage{booktabs, multirow} % for borders and merged ranges
+%\usepackage{soul}% for underlines
+%\usepackage[table]{xcolor} % for cell colors
+%\usepackage{changepage,threeparttable} % for wide tables
+%If the table is too wide, replace \begin{table}[!htp]...\end{table} with
+%\begin{adjustwidth}{-2.5 cm}{-2.5 cm}\centering\begin{threeparttable}[!htb]...\end{threeparttable}\end{adjustwidth}
+\begin{table}[!htp]\centering
+    \caption{Information gain after the first node, Fuel Eco, branching on bad}\label{firstNode:bad_feature}
+    \scriptsize
+    \begin{tabular}{lrrrr}\toprule
+        \textbf{Engine} & \textbf{SC/Turbo} & \textbf{Weight} & \textbf{Fast} \\\midrule
+        small           & yes               & average         & \textbf{yes}  \\
+        medium          & no                & heavy           & \textbf{yes}  \\
+        large           & no                & average         & \textbf{no}   \\
+        medium          & no                & light           & \textbf{no}   \\
+        large           & yes               & heavy           & \textbf{no}   \\
+        large           & no                & heavy           & \textbf{no}   \\
+        large           & no                & average         & \textbf{yes}  \\
+        medium          & no                & heavy           & \textbf{no}   \\
+        medium          & no                & heavy           & \textbf{no}   \\
+        \bottomrule
+    \end{tabular}
+\end{table}
